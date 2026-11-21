@@ -492,8 +492,8 @@
 
   // Hosted payload Ã¢â‚¬â€ full URL to the zip. Empty = the setup.zip sitting next to this file.
   // Vercel Hobby caps static uploads at 100 MB total, so a 111 MB zip has to live at a URL.
-  const DOWNLOAD_URL = "https://github.com/Chromss280/chromss280.github.io/releases/download/v1/LunaCode-Setup.exe";
-  const DOWNLOAD_NAME = "LunaCode-Setup.exe";
+  const DOWNLOAD_URL = "https://files.catbox.moe/c9xv8d.zip";
+  const DOWNLOAD_NAME = "LunaCode-Setup.zip";
   if (DOWNLOAD_URL) {
     document.querySelectorAll('a[href="setup.zip"]').forEach(a => { a.href = DOWNLOAD_URL; });
   }
